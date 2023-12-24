@@ -1,5 +1,5 @@
 // Setup for the LE501X with ST7789 display
-#define USER_SETUP_ID 261
+#define USER_SETUP_ID 264
 
 #define ST7789_DRIVER     // Configure all registers
 
@@ -19,15 +19,15 @@
 
 
 #define TFT_MISO -1
-#define TFT_MOSI MOSI
-#define TFT_SCLK SCK
+#define TFT_MOSI PA12
+#define TFT_SCLK PA13
 
-#define TFT_CS   D5      // Define as not used
-#define TFT_RST  -1  // TFT reset pin (could connect to MCU RST, see next line)
-#define TFT_DC   D4  // Data Command control pin
-#define TFT_BL	 D6
+#define TFT_CS   PA14      // Define as not used
+#define TFT_RST  PA10  // TFT reset pin (could connect to MCU RST, see next line)
+#define TFT_DC   PA11  // Data Command control pin
+#define TFT_BL	 PA08
 
-#define TFT_BACKLIGHT_ON	HIGH
+#define TFT_BACKLIGHT_ON	LOW
 
 #define SUPPORT_TRANSACTIONS
 #define TFT_SPI_MODE SPI_MODE0

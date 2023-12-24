@@ -24,7 +24,8 @@
 
 // Only ONE line below should be uncommented to define your setup.  Add extra lines and files as needed.
 
-#include <User_Setup.h>           // Default setup is root library folder
+//#include <User_Setup.h>           // Default setup is root library folder
+
 
 //#include <User_Setups/Setup1_ILI9341.h>  // Setup file for ESP8266 configured for my ILI9341
 //#include <User_Setups/Setup2_ST7735.h>   // Setup file for ESP8266 configured for my ST7735
@@ -144,6 +145,9 @@
 //#include <User_Setups/Setup261_LE501X_ST7789.h>           // Setup file for LE501X with ST7789 display
 //#include <User_Setups/Setup262_LE501X_ST7789_parallel.h>  // Setup file for LE501X with 8 bit parallel ST7789
 //#include <User_Setups/Setup263_LE501X_ST7735.h>           // Setup file for LE501X with ST7735 display
+// #include <User_Setups/Setup264_LE501X_ST7789_kartboard.h>           // Setup file for LE501X with ST7789 display
+#include <User_Setups/Setup265_LE501X_ST7789_kartboard_v2.h>           // Setup file for LE501X with ST7789 display
+// #include <User_Setups/Setup266_LE501X_ST7735.h>
 
 //#include <User_Setups/SetupX_Template.h>     // Template file for a setup
 
